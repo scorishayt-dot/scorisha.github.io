@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Информативный сайт по игре Geometry Dash: уровни, режимы и особенности игры.">
+  <title>Geometry Dash Wiki</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="header">
+  <a class="brand" href="#home" aria-label="На главную"><span class="brand-mark">◆</span> GD<span>Wiki</span></a>
+  <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+  <nav class="nav" aria-label="Главное меню">
+    <a href="#about">Об игре</a><a href="#levels">Уровни</a><a href="#gamemodes">Геймплей</a><a href="#contact" class="nav-cta">Обратная связь</a>
+  </nav>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="hero-grid"></div><div class="hero-glow"></div>
+    <div class="hero-copy">
+      <p class="eyebrow"><i></i> РИТМ • РЕАКЦИЯ • ВОЛНЕНИЕ</p>
+      <h1>GEOMETRY<br><span>DASH</span></h1>
+      <p class="hero-lead">Бесконечные попытки, повторение одного и того же, возвращение в самое начало<br>Добро пожаловать в мир, где ярость правит игроками</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#about">Узнать об игре<b>➤</b></a><a class="btn btn-ghost" href="#levels">Исследовать уровни</a></div>
+      <div class="hero-metrics"><div><strong>2013</strong><small>Год выхода</small></div><div><strong>2D</strong><small>Ритм-платформер</small></div><div><strong>Бесконечность</strong><small>Попыток</small></div></div>
+    </div>
+    <div class="hero-art" aria-label="Куб GD">
+      <div class="ring ring-a"></div><div class="ring ring-b"></div>
+      <div class="hero-cube"><span class="eye eye-l"></span><span class="eye eye-r"></span><span class="mouth"></span></div>
+      <span class="spark spark-a">✦</span><span class="spark spark-b">✧</span><span class="spark spark-c">◆</span>
+      <div class="art-tag">ГОТОВ<br><b>ЗАПРЫГНУТЬ</b><br>В ЭТОТ МИР?</div>
+    </div>
+    <a class="scroll-cue" href="#about">ЛИСТАЙ НИЖЕ <span>↓</span></a>
+  </section>
+  
+  <section class="section about" id="about">
+    <div class="section-head"><p class="eyebrow">ОБ ИГРЕ</p><h2>Это не случайные прыжки<br><span>это чувство ритма</span></h2><p>Geometry Dash - это платформер с элементами ритм-игры, в котором нужно обходить препятствия, иногда синхронизируя нажатия с музыкой.</p></div>
+    <div class="info-grid">
+      <article class="info-card"><span class="card-icon">♫</span><h3>Реакция и ритм</h3><p>Музыка помогает лучше воспринимать геймплей, но реакция решает всё.</p><b class="card-index">1</b></article>
+      <article class="info-card"><span class="card-icon">☞</span><h3>Простое управление</h3><p>Одно действие для всего, главное - вовремя нажать.</p><b class="card-index">2</b></article>
+      <article class="info-card"><span class="card-icon">✧</span><h3>Необычный вид</h3><p>Особые цвета, неповторимые структуры и музыка создают очень узнаваемый стиль.</p><b class="card-index">3</b></article>
+    </div>
+  </section>
+
+  <section class="section levels-section" id="levels">
+    <div class="section-head row-head"><div><p class="eyebrow">УРОВНИ</p><h2>Твоё прохождение - <span>твой выбор</span></h2><p>Нажми на карточку, чтобы посмотреть краткое описание уровней.</p></div><span class="section-count">1-4</span></div>
+    <div class="levels-grid">
+      <button class="level-card" data-level="stereo" aria-label="Подробнее о Stereo Madness">
+        <span class="level-art art-blue"><span class="level-no">1</span><span class="pixel-cube"></span><span class="spike"></span><span class="spike spike-two"></span><span class="tag">EASY</span></span>
+        <span class="level-info"><small>ОФИЦИАЛЬНЫЙ УРОВЕНЬ</small><strong>Stereo Madness</strong><span>Первое знакомство с прыжками и препятствиями.</span><i>Подробнее <b>↗</b></i></span>
+      </button>
+      <button class="level-card" data-level="back" aria-label="Подробнее о Back on Track">
+        <span class="level-art art-purple"><span class="level-no">2</span><span class="pixel-cube"></span><span class="spike"></span><span class="spike spike-two"></span><span class="tag">EASY</span></span>
+        <span class="level-info"><small>ОФИЦИАЛЬНЫЙ УРОВЕНЬ</small><strong>Back on Track</strong><span>Закрепление полученной информации.</span><i>Подробнее <b>↗</b></i></span>
+      </button>
+      <button class="level-card" data-level="polar" aria-label="Подробнее о Polargeist">
+        <span class="level-art art-green"><span class="level-no">3</span><span class="pixel-cube"></span><span class="spike"></span><span class="spike spike-two"></span><span class="tag">NORMAL</span></span>
+        <span class="level-info"><small>ОФИЦИАЛЬНЫЙ УРОВЕНЬ</small><strong>Polargeist</strong><span>Новые элементы и проверка сил на новой сложности.</span><i>Подробнее <b>↗</b></i></span>
+      </button>
+      <button class="level-card" data-level="dry" aria-label="Подробнее о Dry Out">
+        <span class="level-art art-orange"><span class="level-no">4</span><span class="pixel-cube"></span><span class="spike"></span><span class="spike spike-two"></span><span class="tag">NORMAL</span></span>
+        <span class="level-info"><small>ОФИЦИАЛЬНЫЙ УРОВЕНЬ</small><strong>Dry Out</strong><span>Больше испытаний, где важны реакция и память.</span><i>Подробнее <b>↗</b></i></span>
+      </button>
+    </div>
+  </section>
+
+  <section class="section gamemodes" id="gamemodes">
+    <div class="section-head"><p class="eyebrow">ГЕЙМПЛЕЙ</p><h2>Меняй форму<br><span>меняй правила</span></h2><p>На твоём пути встречаются разные игровые режимы и каждый со своей механикой.</p></div>
+    <div class="mode-grid">
+      <article class="mode-card"><span class="mode-symbol">☐</span><div><h3>Куб</h3><p>Прыгай через шипы и беги по платформам.</p></div><span class="mode-number">1</span></article>
+      <article class="mode-card"><span class="mode-symbol">✈</span><div><h3>Корабль</h3><p>Зажимай в полёте, чтобы не врезаться в препятствия.</p></div><span class="mode-number">2</span></article>
+      <article class="mode-card"><span class="mode-symbol">➤</span><div><h3>Другие режимы</h3><p>Каждый новый гейммод меняет физику и имеет свою особенность.</p></div><span class="mode-number">3</span></article>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="contact-copy"><p class="eyebrow">ТВОЁ МНЕНИЕ</p><h2>Какой уровень и режим<br><span>твои любимые?</span></h2><p>Заполни форму и расскажи о своём впечатлении от игры.</p><div class="contact-decoration">◆ <span>✦</span> ◇</div></div>
+    <form class="contact-form" id="contactForm">
+      <label for="name">Имя</label><input id="name" name="name" placeholder="Например, Иванов Иван Иванович" minlength="2" maxlength="50" required>
+      <label for="email">Электронная почта</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+      <label for="level">Мнение об игре</label><select id="level" name="level" required><option value="" selected disabled>Выбери из списка</option><option>Понравилась, скачаю и поиграю</option><option>Понравилась, но трогать не буду</option><option>Ничего не поменялось, пусть существует</option><option>Не понравилась, не хочу видеть её</option><option>Я её возненавидал, буду писать гадкие комментарии</option></select>
+      <label for="message">Сообщение</label><textarea id="message" name="message" rows="4" minlength="5" maxlength="800" placeholder="Расскажи по-подробнее, почему выбрал именно этот вариант..." required></textarea>
+      <label class="check"><input type="checkbox" required><span>Даю разрешение на обработку своих данных</span></label>
+      <button class="btn btn-primary submit-btn" type="submit">Отправить сообщение <b>➤</b></button>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="footer"><a class="brand" href="#home"><span class="brand-mark">◆</span> GD<span>Wiki</span></a><p>Неофициальный фан-сайт по игре Geometry Dash. Учебный проект.</p><a class="back-top" href="#home">Наверх ↑</a><small>© 2026 GD Wiki</small></footer>
+<div class="modal" id="levelModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal-backdrop" data-close></div><div class="modal-box"><button class="modal-close" data-close aria-label="Закрыть">×</button><p class="eyebrow">ИНФОРМАЦИЯ ОБ УРОВНЕ</p><h2 id="modalTitle">Stereo Madness</h2><p id="modalText"></p><button class="btn btn-primary" data-close>Понятно <b>✓</b></button></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
